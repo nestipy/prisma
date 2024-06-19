@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nestipy-prisma"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["tsiresymila <tsiresymila@gmail.com>"]
 readme = "README.md"
@@ -9,7 +9,7 @@ packages = [{include = "nestipy_prisma", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 prisma = "^0.13.1"
-nestipy = "^0.3.12"
+nestipy = "^0.4.10"
 
 
 [build-system]
